@@ -15,7 +15,7 @@ public String getNext(){
     return "NONE";
   }
   int index = (int)(Math.random() * valuesRemaining);
-  String selected = values[index]
+  String selected = values[index];
   values[index] = values[valuesRemaining-1];
   valuesRemaining--;
   return selected;
